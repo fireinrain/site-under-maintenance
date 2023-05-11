@@ -1,0 +1,18 @@
+{
+  "name": "site-is-maintenance",
+  "version": "1.0.0",
+  "description": "website maintenance pages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tailwindcss -i styles-input.css -o styles-output.css --watch",
+    "build": "npx tailwindcss -i styles-input.css -o styles-output.css --minify"
+  },
+  "author": "fireinrain",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.23",
+    "tailwindcss": "^3.3.2"
+  }
+}
